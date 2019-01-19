@@ -43,3 +43,65 @@ p{
     background-attachment: scroll;
     background-repeat: no-repeat;
 }
+
+.item {
+  float: left;
+	height: 200px;
+  width: 360px;
+  margin: 0 2px;
+}
+
+#item1 {
+  background: url("./image/promo_iphone5s.jpg")
+}
+
+#item2 {
+  background: url("./image/iphone5c.jpg")
+}
+
+#item2 {
+  background: url("./image/promo_30_years.jpg")
+}
+
+#item4 {
+  background: url("./image/promo_supplier_responsibility.jpg")
+}
+
+footer {
+    min-width: 980px;
+    width: 100%;
+    height: 90px;
+    color: #6e6e6e;
+    text-align: center;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer li{
+  border-right: 1px solid rgba(0,0,0,0.1);
+  padding: 0 5px;
+  font-size: 10px;
+  float: left;
+  color: rgb(0,136,204);
+}
+
+.left {
+  float: left;
+    clear: both;
+    width: 49%;
+    padding-top: 1.5em;
+    text-align: left;
+}
+
+.right {
+  float: right;
+    width: 51%;
+    padding-top: 1.5em;
+    text-align: right;
+}
+
+.clear {
+  clear: both;
+}
