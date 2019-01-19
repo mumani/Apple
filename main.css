@@ -12,18 +12,39 @@ body{
   margin-top: 0 !important;
   padding-top: 0 !important;
   display: block;
-
+  background-image: url("./image/your_verse_hero.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   font-size: 12px;
   line-height: 18px;
   color: #333;
 }
 
-p{
-  font-size: 38px;
-  font-weight: 50px;
-  color: #fff;
+header{
 
+}
+
+.header{
+  width: 100%;
+
+}
+
+table {
+  width: 60%;
+  margin-left: 200px;
+  border-color: transparent;
+  padding-top: 20px;
+
+
+}
+
+button{
+  background-color: #333;
+  font-family: Helvetica;
+  height: 30px;
+  width: 102px;
+  color: white;
 }
 
 .main{
@@ -33,15 +54,18 @@ p{
 
 .main {
     height: 100%; width: 100%;
-
     display: inline-table;
 }
+
+p{
+  font-size: 38px;
+  font-weight: 50px;
+  color: #fff;
+}
+
 .paragraph {
     display: table-cell;
     vertical-align: middle;
-    background-image: url("./image/your_verse_hero.jpg");
-    background-attachment: scroll;
-    background-repeat: no-repeat;
 }
 
 .item {
