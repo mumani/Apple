@@ -32,18 +32,32 @@ header{
 
 table {
   width: 60%;
-  margin-left: 200px;
-  border-color: transparent;
+  margin-left: 150px;
   padding-top: 20px;
+  border-color: transparent;
 
+  border: 0px solid transparent;
+  border-spacing: 0px;
+}
 
+table tr{
+  border: 0px solid transparent;
+  border-collapse: collapse;
+}
+
+table tr td{
+  border: 0px solid transparent;
+  border-collapse: collapse;
+  background-color: #333;
+  opacity: 0.7;
 }
 
 button{
+  border: 2px solid #333;
   background-color: #333;
-  font-family: Helvetica;
-  height: 30px;
-  width: 102px;
+  opacity: 0.7;
+  height: 40px;
+  width: 110px;
   color: white;
 }
 
