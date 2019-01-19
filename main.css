@@ -81,6 +81,10 @@ button{
     padding-bottom: 250px;
 }
 
+img{
+  cursor: pointer;
+}
+
 .bottom{
   padding-top: -150px;
 
@@ -99,7 +103,7 @@ button{
 }
 
 #item2 {
-  background: url("./image/promo_iphone5c.jpg")
+  background: url("./image/iphone5c.jpg")
 }
 
 #item2 {
