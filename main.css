@@ -24,9 +24,6 @@ body{
   color: #333;
 }
 
-header{
-
-}
 
 .header{
   width: 100%;
@@ -115,7 +112,7 @@ img{
   vertical-align: middle;
   float: left;
 	height: 200px;
-  width: 24.9%;
+  width: 349px;
   margin-right: 1px;
 
 }
