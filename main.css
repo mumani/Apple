@@ -1,20 +1,17 @@
 html,body{
   /*default doc styling*/
   position: relative;
-  z-index: 1;
-
   height: 100%;
   background: #fff;
-
 }
 
 body{
   /*default body styling*/
-  margin-top: 0 !important;
-  margin: 0 auto;
-  width: 1400px;
+  margin-top: 0 !important;#
   padding-top: 0 !important;
+  margin: 0 auto;
   display: block;
+  width: 1400px;
   background-image: url("./image/your_verse_hero.jpg");
   background-attachment: scroll;
   background-repeat: no-repeat;
@@ -26,11 +23,12 @@ body{
 
 
 .header{
+  /*header size*/
   width: 100%;
-
 }
 
 table {
+  /* table stylesheet*/
   width: 60%;
   margin-left: 150px;
   padding-top: 20px;
@@ -41,11 +39,14 @@ table {
 }
 
 table tr{
+  /*table row styling*/
   border: 0px solid transparent;
   border-collapse: collapse;
+  background-image: linear-gradient(white, #111, white);
 }
 
 table tr td{
+  /*table data styling*/
   border: 0px solid transparent;
   border-collapse: collapse;
   background-color: #333;
@@ -54,11 +55,13 @@ table tr td{
 }
 
 table tr td:hover{
+  /*hovering behaviour for navbar*/
   color: #333;
   opacity: 1;
 }
 
 button{
+  /*navbar buttons default setting*/
   border: 2px solid #333;
   background-color: #333;
   opacity: 0.7;
@@ -68,6 +71,7 @@ button{
 }
 
 input{
+  /*search box styling*/
   background-image: url("./image/search.png");
   background-repeat: no-repeat; background-position: 5px center;
   position: static; right: 172px;top: 30px;
@@ -78,73 +82,60 @@ input{
 }
 
 .main{
+  /*main section positioning*/
   text-align: center;
-
-}
-
-.main {
-    height: 100%; width: 100%;
-    display: inline-table;
-    margin-bottom: -220px;
+  height: 100%; width: 100%;
+  display: inline-table;
+  margin-bottom: -220px;
 }
 
 .paragraph {
+  /*main section content positioning*/
     display: table-cell;
     vertical-align: middle;
     padding-bottom: 250px;
 }
 
 img{
+  /*cursor behaviour around images*/
   cursor: pointer;
 }
 
 .bottom{
+  /*bottom section images */
   padding-top: -150px;
   display: block;
   width: inherit;
   margin: 0px;
   overflow: hidden;
   margin-left: 1px;
-
 }
 
 .item {
+  /*bottom section individual images */
   vertical-align: middle;
   float: left;
   width: 24.7%;
   border: 2px #fff solid;
 }
 
-#item1 {
-  /* background: url("./image/promo_iphone5s.jpg") */
-}
-
-#item2 {
-  /* background-image: url("./image/iphone5c.jpg") */
-}
-
-#item3 {
-  /* background: url("./image/promo_30_years.jpg") */
-}
-
-#item4 {
-  /* background: url("./image/promo_supplier_responsibility.jpg") */
-}
 
 footer {
+  /*entire footer section */
     min-width: 980px;
     width: 100%;
-
     height: 100px;
     color: #6e6e6e;
     text-align: center;
 }
 
 footer ul{
+  /* entire footer list section */
   list-style: none;
 }
 
 footer li{
+  /* footer section list items */
   border-right: 1px solid rgba(0,0,0,0.1);
   padding: 0 5px;
   font-size: 10px;
@@ -153,8 +144,8 @@ footer li{
 }
 
 .left {
+  /* footer section left menu*/
     float: left;
-    /* clear: both; */
     margin-left: 10%;
     width: 49%;
     padding-top: 1.5em;
@@ -162,11 +153,13 @@ footer li{
 }
 
 p {
+  /*paragraphs*/
   display: inline;
   margin-left: 150px;
 }
 
 .right {
+  /* footer section right menu*/
   float: right;
     width: 51%;
     padding-top: 1.5em;
