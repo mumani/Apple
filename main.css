@@ -2,7 +2,7 @@ html,body{
   /*default doc styling*/
   position: relative;
   z-index: 1;
-  min-width: 1024px;
+
   height: 100%;
   background: #fff;
 }
@@ -11,7 +11,7 @@ body{
   /*default body styling*/
   margin-top: 0 !important;
   margin: 0 auto;
-  width: 1420px;
+  width: 100%;
   padding-top: 0 !important;
   display: block;
   background-image: url("./image/your_verse_hero.jpg");
@@ -87,7 +87,7 @@ input{
 .main {
     height: 100%; width: 100%;
     display: inline-table;
-    margin-bottom: -204px;
+    margin-bottom: -220px;
 }
 
 .paragraph {
@@ -102,6 +102,9 @@ img{
 
 .bottom{
   padding-top: -150px;
+  display: block;
+  margin: 0px;
+  
 
 }
 
@@ -109,7 +112,7 @@ img{
   vertical-align: top;
   float: left;
 	height: 200px;
-  width: 354px;
+  width: 24%;
   margin-right: 1px;
 }
 
@@ -118,7 +121,7 @@ img{
 }
 
 #item2 {
-  background: url("./image/iphone5c.jpg")
+  background-image: url("./image/iphone5c.jpg")
 }
 
 #item2 {
