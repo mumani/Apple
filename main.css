@@ -159,9 +159,9 @@ footer li{
 
 .left {
     float: left;
-    clear: both;
+    /* clear: both; */
+    margin-left: 10%;
     width: 49%;
-
     padding-top: 1.5em;
     text-align: left;
 }
@@ -176,6 +176,7 @@ p {
     width: 51%;
     padding-top: 1.5em;
     text-align: right;
+    margin-top: -65px;
 }
 
 .clear {
