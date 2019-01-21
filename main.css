@@ -37,7 +37,7 @@ table {
   margin-left: 150px;
   padding-top: 20px;
   border-color: transparent;
-
+  height: 35px;
   border: 0px solid transparent;
   border-spacing: 0px;
 }
@@ -70,9 +70,10 @@ button{
 }
 
 input{
-  z-index: 1;
-  position: fixed; right: 172px;top: 30px;
-  height: 15px; width: 100px;
+  background-image: url("./image/search.png");
+  background-repeat: no-repeat; background-position: 5px center;
+  position: static; right: 172px;top: 30px;
+  height: 18px; width: 100px;
   background-color: inherit;
   border-radius: 8px;
   border-color: #222; color: #fff;
@@ -87,7 +88,6 @@ input{
     height: 100%; width: 100%;
     display: inline-table;
     margin-bottom: -204px;
-
 }
 
 .paragraph {
