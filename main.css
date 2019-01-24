@@ -3,6 +3,7 @@ html,body{
   position: relative;
   height: 100%;
   background: #fff;
+  overflow-x: hidden;
 }
 
 body{
@@ -25,60 +26,82 @@ body{
 .header{
   /*header size*/
   width: 100%;
+  margin-left: 200px;
+  padding-top: 18px;
 }
 
-table {
-  /* table stylesheet*/
-  width: 60%;
-  margin-left: 150px;
-  padding-top: 20px;
-  border-color: transparent;
+#left-box{
+  width: 110px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.nav-btn{
+  float: left;
+  width: 105px;
+  background-color: #777;
+  background-image: none, linear-gradient(to bottom, #aaa, #555, #999);
+}
+
+button:hover{
+  background-color: #444;
+}
+
+.nav-spc{
+  float: left;
+  width: 1px;
   height: 35px;
-  border: 0px solid transparent;
-  border-spacing: 0px;
-}
-
-table tr{
-  /*table row styling*/
-  border: 0px solid transparent;
-  border-collapse: collapse;
-  background-image: linear-gradient(white, #111, white);
-}
-
-table tr td{
-  /*table data styling*/
-  border: 0px solid transparent;
-  border-collapse: collapse;
-  background-color: #333;
-  opacity: 0.7;
-  height: 35px;
-}
-
-table tr td:hover{
-  /*hovering behaviour for navbar*/
-  color: #333;
-  opacity: 1;
+  background-color: #222;
+  opacity: 0.8;
 }
 
 button{
-  /*navbar buttons default setting*/
-  border: 2px solid #333;
-  background-color: #333;
-  opacity: 0.7;
-  height: 35px;
-  width: 110px;
-  color: white;
+  background-color: transparent;
+  width: inherit;
+  border: 0px solid transparent;
 }
 
+#btn-l{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#btn-r:hover{
+  background-color: transparent !important;
+}
+
+.nav-img{
+  height: 30px;
+}
+
+#search-box{
+  width: 130px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
 input{
-  /*search box styling*/
+
   background-image: url("./image/search.png");
-  background-repeat: no-repeat; background-position: 5px center;
-  position: static; right: 172px;top: 30px;
-  height: 18px; width: 100px;
-  background-color: inherit;
+  background-repeat: no-repeat;
+  background-position: left 10% bottom 40%;
+  background-color: #777;
+  width: 100px;
+  height: 18px;
+  border: 1px solid #555;
   border-radius: 10px;
-  border-color: #222; color: #fff;
+  transition: background-color 0.8s;
+}
+
+
+input:focus{
+
+  background-color: #fff;
+  width: 115px;
+  border: 1px solid transparent;
+  background-image: none;
+  outline: none;
 }
 
 .main{
@@ -99,6 +122,14 @@ input{
 img{
   /*cursor behaviour around images*/
   cursor: pointer;
+}
+
+#under_l{
+  background-image: url("./image/expl_your_verse.png");
+}
+
+#under_l:hover{
+  background-image: url("./image/expl_your_verse1.png") !important;
 }
 
 .bottom{
