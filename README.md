@@ -1,7 +1,7 @@
 # Apple replica
 
 A CSS Basics project
-This is a replica of [I'm an inline-style link](https://web.archive.org/web/20140301004610/http://www.apple.com/)
+This is a replica of [Apple 2004 Site](https://web.archive.org/web/20140301004610/http://www.apple.com/)
 Preview our replica here https://web.archive.org/web/20140301004610/http://www.apple.com/
 
 
@@ -9,7 +9,8 @@ The icons used were from https://web.archive.org/web/20140301004610/http://www.a
 Everything else was built using HTML5 forms and CSS3
 
 
-##Contributors
+## Contributors
 Elvis (@mumani)
+____
 Blessed (@newcoder171)
 
