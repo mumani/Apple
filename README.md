@@ -1,7 +1,7 @@
 # Apple replica
 
 A CSS Basics project
-This is a replica of [Apple] (https://web.archive.org/web/20140301004610/http://www.apple.com/)
+This is a replica of (Apple) [https://web.archive.org/web/20140301004610/http://www.apple.com/]
 Preview our replica here https://web.archive.org/web/20140301004610/http://www.apple.com/
 
 
